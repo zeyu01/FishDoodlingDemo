@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF64DABF245353AA00C79EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF64DABE245353AA00C79EE9 /* AppDelegate.swift */; };
+		CF64DAC1245353AA00C79EE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF64DAC0245353AA00C79EE9 /* SceneDelegate.swift */; };
+		CF64DAC3245353AA00C79EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF64DAC2245353AA00C79EE9 /* ViewController.swift */; };
+		CF64DAC6245353AA00C79EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF64DAC4245353AA00C79EE9 /* Main.storyboard */; };
+		CF64DAC8245353AB00C79EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF64DAC7245353AB00C79EE9 /* Assets.xcassets */; };
+		CF64DACB245353AB00C79EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF64DAC9245353AB00C79EE9 /* LaunchScreen.storyboard */; };
+		CF64DADF245354EE00C79EE9 /* QDoodlingBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = CF64DAD7245354EE00C79EE9 /* QDoodlingBezierPath.m */; };
+		CF64DAE1245354EE00C79EE9 /* QDoodlingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF64DADA245354EE00C79EE9 /* QDoodlingModel.swift */; };
+		CF64DAE2245354EE00C79EE9 /* QDoodlingDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF64DADB245354EE00C79EE9 /* QDoodlingDrawView.m */; };
+		D183A98E27ED4B3F35A1DDEA /* Pods_FishDoodlingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31455DEF929AF3029B0F3DDA /* Pods_FishDoodlingDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012260E20481565B817878D1 /* Pods-FishDoodlingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishDoodlingDemo.debug.xcconfig"; path = "Target Support Files/Pods-FishDoodlingDemo/Pods-FishDoodlingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		31455DEF929AF3029B0F3DDA /* Pods_FishDoodlingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishDoodlingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A490CBF841C14D5C1739F9 /* Pods-FishDoodlingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishDoodlingDemo.release.xcconfig"; path = "Target Support Files/Pods-FishDoodlingDemo/Pods-FishDoodlingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CF64DABB245353AA00C79EE9 /* FishDoodlingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishDoodlingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF64DABE245353AA00C79EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF64DAC0245353AA00C79EE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF64DAC2245353AA00C79EE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF64DAC5245353AA00C79EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF64DAC7245353AB00C79EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF64DACA245353AB00C79EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF64DACC245353AB00C79EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF64DAD2245353BC00C79EE9 /* Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+		CF64DAD7245354EE00C79EE9 /* QDoodlingBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDoodlingBezierPath.m; sourceTree = "<group>"; };
+		CF64DAD8245354EE00C79EE9 /* QDoodlingDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDoodlingDrawView.h; sourceTree = "<group>"; };
+		CF64DADA245354EE00C79EE9 /* QDoodlingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QDoodlingModel.swift; sourceTree = "<group>"; };
+		CF64DADB245354EE00C79EE9 /* QDoodlingDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDoodlingDrawView.m; sourceTree = "<group>"; };
+		CF64DADC245354EE00C79EE9 /* QDoodlingBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDoodlingBezierPath.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF64DAB8245353AA00C79EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D183A98E27ED4B3F35A1DDEA /* Pods_FishDoodlingDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		355D469A7AB48954C04F41B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				012260E20481565B817878D1 /* Pods-FishDoodlingDemo.debug.xcconfig */,
+				69A490CBF841C14D5C1739F9 /* Pods-FishDoodlingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B585097CDE88A0B2C5608652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31455DEF929AF3029B0F3DDA /* Pods_FishDoodlingDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF64DAB2245353AA00C79EE9 = {
+			isa = PBXGroup;
+			children = (
+				CF64DABD245353AA00C79EE9 /* FishDoodlingDemo */,
+				CF64DABC245353AA00C79EE9 /* Products */,
+				355D469A7AB48954C04F41B0 /* Pods */,
+				B585097CDE88A0B2C5608652 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF64DABC245353AA00C79EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF64DABB245353AA00C79EE9 /* FishDoodlingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF64DABD245353AA00C79EE9 /* FishDoodlingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF64DAD6245354EE00C79EE9 /* Doodling */,
+				CF64DABE245353AA00C79EE9 /* AppDelegate.swift */,
+				CF64DAC0245353AA00C79EE9 /* SceneDelegate.swift */,
+				CF64DAC2245353AA00C79EE9 /* ViewController.swift */,
+				CF64DAC4245353AA00C79EE9 /* Main.storyboard */,
+				CF64DAC7245353AB00C79EE9 /* Assets.xcassets */,
+				CF64DAC9245353AB00C79EE9 /* LaunchScreen.storyboard */,
+				CF64DACC245353AB00C79EE9 /* Info.plist */,
+				CF64DAD2245353BC00C79EE9 /* Bridging.h */,
+			);
+			path = FishDoodlingDemo;
+			sourceTree = "<group>";
+		};
+		CF64DAD6245354EE00C79EE9 /* Doodling */ = {
+			isa = PBXGroup;
+			children = (
+				CF64DAD7245354EE00C79EE9 /* QDoodlingBezierPath.m */,
+				CF64DAD8245354EE00C79EE9 /* QDoodlingDrawView.h */,
+				CF64DADA245354EE00C79EE9 /* QDoodlingModel.swift */,
+				CF64DADB245354EE00C79EE9 /* QDoodlingDrawView.m */,
+				CF64DADC245354EE00C79EE9 /* QDoodlingBezierPath.h */,
+			);
+			path = Doodling;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF64DABA245353AA00C79EE9 /* FishDoodlingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF64DACF245353AB00C79EE9 /* Build configuration list for PBXNativeTarget "FishDoodlingDemo" */;
+			buildPhases = (
+				23CE8E499BBAC6B5E1E4DB62 /* [CP] Check Pods Manifest.lock */,
+				CF64DAB7245353AA00C79EE9 /* Sources */,
+				CF64DAB8245353AA00C79EE9 /* Frameworks */,
+				CF64DAB9245353AA00C79EE9 /* Resources */,
+				62D5272BD639F871D7D4502C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishDoodlingDemo;
+			productName = FishDoodlingDemo;
+			productReference = CF64DABB245353AA00C79EE9 /* FishDoodlingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF64DAB3245353AA00C79EE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = fish;
+				TargetAttributes = {
+					CF64DABA245353AA00C79EE9 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = CF64DAB6245353AA00C79EE9 /* Build configuration list for PBXProject "FishDoodlingDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF64DAB2245353AA00C79EE9;
+			productRefGroup = CF64DABC245353AA00C79EE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF64DABA245353AA00C79EE9 /* FishDoodlingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF64DAB9245353AA00C79EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF64DACB245353AB00C79EE9 /* LaunchScreen.storyboard in Resources */,
+				CF64DAC8245353AB00C79EE9 /* Assets.xcassets in Resources */,
+				CF64DAC6245353AA00C79EE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23CE8E499BBAC6B5E1E4DB62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FishDoodlingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62D5272BD639F871D7D4502C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FishDoodlingDemo/Pods-FishDoodlingDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FishDoodlingDemo/Pods-FishDoodlingDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FishDoodlingDemo/Pods-FishDoodlingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF64DAB7245353AA00C79EE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF64DAC3245353AA00C79EE9 /* ViewController.swift in Sources */,
+				CF64DABF245353AA00C79EE9 /* AppDelegate.swift in Sources */,
+				CF64DAC1245353AA00C79EE9 /* SceneDelegate.swift in Sources */,
+				CF64DAE2245354EE00C79EE9 /* QDoodlingDrawView.m in Sources */,
+				CF64DADF245354EE00C79EE9 /* QDoodlingBezierPath.m in Sources */,
+				CF64DAE1245354EE00C79EE9 /* QDoodlingModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF64DAC4245353AA00C79EE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF64DAC5245353AA00C79EE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF64DAC9245353AB00C79EE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF64DACA245353AB00C79EE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF64DACD245353AB00C79EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF64DACE245353AB00C79EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF64DAD0245353AB00C79EE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012260E20481565B817878D1 /* Pods-FishDoodlingDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FishDoodlingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fish.FishDoodlingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FishDoodlingDemo/Bridging.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF64DAD1245353AB00C79EE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A490CBF841C14D5C1739F9 /* Pods-FishDoodlingDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FishDoodlingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fish.FishDoodlingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FishDoodlingDemo/Bridging.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF64DAB6245353AA00C79EE9 /* Build configuration list for PBXProject "FishDoodlingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF64DACD245353AB00C79EE9 /* Debug */,
+				CF64DACE245353AB00C79EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF64DACF245353AB00C79EE9 /* Build configuration list for PBXNativeTarget "FishDoodlingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF64DAD0245353AB00C79EE9 /* Debug */,
+				CF64DAD1245353AB00C79EE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF64DAB3245353AA00C79EE9 /* Project object */;
+}

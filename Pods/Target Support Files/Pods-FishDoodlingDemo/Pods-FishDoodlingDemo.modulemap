@@ -1,0 +1,6 @@
+framework module Pods_FishDoodlingDemo {
+  umbrella header "Pods-FishDoodlingDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
